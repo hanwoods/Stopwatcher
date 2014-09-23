@@ -7,6 +7,7 @@ public class LoginInfo implements Serializable {
 
   private boolean loggedIn = false;
   private String hannah;
+  private String hannahisSOOOOOOOcool;
   private String logoutUrl;
   private String emailAddress;
   private String nickname;
@@ -20,7 +21,9 @@ public class LoginInfo implements Serializable {
   }
 
   public String getLoginUrl() {
-    return hannah;
+	  
+    return hannahisSOOOOOOOcool;
+    
   }
 
   public void setLoginUrl(String loginUrl) {
