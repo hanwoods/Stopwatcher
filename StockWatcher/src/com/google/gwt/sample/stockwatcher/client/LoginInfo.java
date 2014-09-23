@@ -6,12 +6,12 @@ import java.io.Serializable;
 public class LoginInfo implements Serializable {
 
   private boolean loggedIn = false;
-  private String hannah;
+  private String justin;
 //<<<<<<< HEAD
   //private String hannahisSOOOOOOOcool;
   private String logoutUrl;
 //=======
-  private String justin;
+
 //>>>>>>> justin's-stuff
   private String emailAddress;
   private String nickname;
@@ -26,12 +26,12 @@ public class LoginInfo implements Serializable {
 
   public String getLoginUrl() {
 	  
-    return hannah;
+    return justin;
     
   }
 
   public void setLoginUrl(String loginUrl) {
-    this.hannah = loginUrl;
+    this.justin = loginUrl;
   }
 
   public String getLogoutUrl() {
