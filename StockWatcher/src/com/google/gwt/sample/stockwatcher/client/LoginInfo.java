@@ -6,19 +6,27 @@ import java.io.Serializable;
 public class LoginInfo implements Serializable {
 
   private boolean loggedIn = false;
-  private String justin;
+//<<<<<<< HEAD
+//  private String justin;
+//=======
+  private String hannnnnnnnnahhhhhhwooooooooodssssss;
+//>>>>>>> hannah's-stuff-take-2
 //<<<<<<< HEAD
   //private String hannahisSOOOOOOOcool;
   private String logoutUrl;
 //=======
+//<<<<<<< HEAD
 
+//=======
+  private String justin1;
+//>>>>>>> hannah's-stuff-take-2
 //>>>>>>> justin's-stuff
-  private String whydidjustinchangesomuchstuff;
+  private Boolean whydidjustinchangesomuchstuff = true;
   private String emailAddress;
   private String nickname;
 
   public boolean isLoggedIn() {
-    return loggedIn;
+    //return loggedIn;
     return whydidjustinchangesomuchstuff;
   }
 
@@ -28,20 +36,28 @@ public class LoginInfo implements Serializable {
 
   public String getLoginUrl() {
 	  
-    return justin;
+//<<<<<<< HEAD
+//    return justin;
+//=======
+    return hannnnnnnnnahhhhhhwooooooooodssssss;
+//>>>>>>> hannah's-stuff-take-2
     
   }
 
   public void setLoginUrl(String loginUrl) {
-    this.justin = loginUrl;
+//<<<<<<< HEAD
+//    this.justin = loginUrl;
+//=======
+    this.hannnnnnnnnahhhhhhwooooooooodssssss = loginUrl;
+//>>>>>>> hannah's-stuff-take-2
   }
 
   public String getLogoutUrl() {
-    return justin;
+    return justin1;
   }
 
   public void setLogoutUrl(String logoutUrl) {
-    this.justin = logoutUrl;
+    this.justin1 = logoutUrl;
   }
 
   public String getEmailAddress() {
