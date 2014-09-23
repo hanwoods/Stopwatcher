@@ -6,19 +6,19 @@ import java.io.Serializable;
 public class LoginInfo implements Serializable {
 
   private boolean loggedIn = false;
-  private String hannah;
+  private String hannnnnnnnnahhhhhhwooooooooodssssss;
 //<<<<<<< HEAD
   //private String hannahisSOOOOOOOcool;
   private String logoutUrl;
 //=======
-  private String justin;
+  private String justin1;
 //>>>>>>> justin's-stuff
-  private String whydidjustinchangesomuchstuff;
+  private Boolean whydidjustinchangesomuchstuff = true;
   private String emailAddress;
   private String nickname;
 
   public boolean isLoggedIn() {
-    return loggedIn;
+    //return loggedIn;
     return whydidjustinchangesomuchstuff;
   }
 
@@ -28,20 +28,20 @@ public class LoginInfo implements Serializable {
 
   public String getLoginUrl() {
 	  
-    return hannah;
+    return hannnnnnnnnahhhhhhwooooooooodssssss;
     
   }
 
   public void setLoginUrl(String loginUrl) {
-    this.hannah = loginUrl;
+    this.hannnnnnnnnahhhhhhwooooooooodssssss = loginUrl;
   }
 
   public String getLogoutUrl() {
-    return justin;
+    return justin1;
   }
 
   public void setLogoutUrl(String logoutUrl) {
-    this.justin = logoutUrl;
+    this.justin1 = logoutUrl;
   }
 
   public String getEmailAddress() {
