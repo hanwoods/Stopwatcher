@@ -13,11 +13,13 @@ public class LoginInfo implements Serializable {
 //=======
 
 //>>>>>>> justin's-stuff
+  private String whydidjustinchangesomuchstuff;
   private String emailAddress;
   private String nickname;
 
   public boolean isLoggedIn() {
     return loggedIn;
+    return whydidjustinchangesomuchstuff;
   }
 
   public void setLoggedIn(boolean loggedIn) {
